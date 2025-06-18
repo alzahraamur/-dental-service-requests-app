@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_services">
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="hmd.ec.a22143_project.ServicesFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_my_requests"
+        android:name="hmd.ec.a22143_project.MyRequestsFragment"
+        android:label="My Requests"
+        tools:layout="@layout/fragment_my_requests" />
+
+    <fragment
+        android:id="@+id/nav_approved_requests"
+        android:name="hmd.ec.a22143_project.ApprovedFragment"
+        android:label="Approved Requests"
+        tools:layout="@layout/fragment_approved" />
+
+    <fragment
+        android:id="@+id/nav_add_request"
+        android:name="hmd.ec.a22143_project.AddRequestFragment"
+        android:label="Add Request"
+        tools:layout="@layout/fragment_add_request" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="hmd.ec.a22143_project.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>

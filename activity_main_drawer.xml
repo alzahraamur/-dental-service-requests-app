@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Services" />
+
+    <item
+        android:id="@+id/nav_my_requests"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Requests" />
+
+    <item
+        android:id="@+id/nav_approved_requests"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Approved Requests" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Logout" />
+</menu>
